@@ -1,57 +1,42 @@
-House Price Prediction Dataset :
+🏠 House Price Prediction Dataset:
 
-The dataset contains 2000 rows of house-related data with features influencing house prices.
+This project aims to build a machine learning model that can predict house prices based on various input features such as area, number of bedrooms, bathrooms, furnishing status, location, and more. It uses data-driven techniques to assist users, buyers, or real estate companies in estimating the fair price of a house.
 
-1. Key Features
+📊 About the Dataset
 
-Area: Square footage (500–5000 sqft).
+The dataset used in this project contains *2000 rows* of structured data on house listings. Each row represents a property with multiple attributes that affect its price. This data is ideal for regression analysis and predictive modeling tasks.
 
-Bedrooms/Bathrooms: 1–5 bedrooms, 1–4 bathrooms.
+ ⭐ Key Features
 
-Floors: 1–3 levels.
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature selection and encoding
+- Model training and evaluation (Linear Regression, etc.)
+- Visualization of predicted vs actual results
+- Exporting the model for future predictions.
 
-Year Built: 1900–2023.
+🧰 Tools & Libraries Used
 
-Location: Urban, suburban, downtown, or rural.
+- *Python 3.x*
+- *Pandas* – for data manipulation
+- *NumPy* – for numerical operations
+- *Matplotlib & Seaborn* – for data visualization
+- *Scikit-learn* – for machine learning models and preprocessing
+- *Jupyter/Colab* or *VS Code* – for development environment
 
-Condition: Rated as Excellent, Good, Fair, or Poor.
+ 📁 Data Columns Used
 
-Garage: Availability included.
-
-Price: Target variable ($50,000–$1,000,000).
-
-
-2. Feature Impact
-
-Area, Condition, Location: Strongly affect price.
-
-Year Built: Newer homes usually cost more.
-
-Garage: Adds value to the property.
-
-
-3. Use Cases
-
-Price Prediction using regression models.
-
-Feature Importance analysis.
-
-Clustering to group similar homes.
-
-Market Segmentation by location or price.
-
-Trend Analysis based on construction year.
-
-
-4. Limitations
-
-Randomly generated data; lacks real-world complexities.
-
-No external factors (e.g., schools, crime rates).
-
-No economic or seasonal trends included.
-
-
-5. Conclusion
-
-Ideal for learning and practicing predictive modeling and feature analysis, though not reflective of real housing market dynamics.
+| Column Name         | Description                                      |
+|---------------------|--------------------------------------------------|
+| area              | Total area of the house in square feet           |
+| bedrooms          | Number of bedrooms in the house                  |
+| bathrooms         | Number of bathrooms                              |
+| stories           | Number of stories/floors                         |
+| mainroad          | Whether the house is on the main road (yes/no)   |
+| guestroom         | Availability of guestroom (yes/no)               |
+| basement          | Availability of basement (yes/no)                |
+| hotwaterheating   | Whether hot water heating is installed (yes/no)  |
+| airconditioning   | Whether air conditioning is installed (yes/no)   |
+| parking           | Number of parking spaces                         |
+| furnishingstatus  | Furnishing status: furnished/semi-furnished/unfurnished |
+| price             | Target variable – price of the house              |
